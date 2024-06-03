@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #282c30;
+}
+.container {
+    padding: 20px;
+}
+.profile-card {
+    border: 1px solid #7e7d77;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 400px;
+}
+.profile-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.profile-item:nth-child(even) {
+    background-color: #ceb3b3;
+}
+.profile-item label {
+    font-weight: bold;
+}
+
+.form-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 400px;
+}
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.form-item label {
+    font-weight: bold;
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+.form-item input,
+.form-item select {
+    flex: 2;
+}
+.form-item:nth-child(even) {
+    background-color: #ceb3b3;
+}
+.submit-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.submit-button button {
+    background-color: #587da5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.table-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

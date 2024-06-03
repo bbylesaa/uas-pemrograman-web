@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Pemrograman Web 1 dan Internet</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="form.html">Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="table.html">Table</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <h2>Pemrograman Web 1 dan Internet</h2>
+            <div class="form-card">
+                <form>
+                    <div class="form-item">
+                        <label for="nim">NIM</label>
+                        <input type="text" id="nim" name="nim" placeholder="NIM">
+                    </div>
+                    <div class="form-item">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="nama" placeholder="Nama">
+                    </div>
+                    <div class="form-item">
+                        <label for="jenis-kelamin">Jenis Kelamin</label>
+                        <select id="jenis-kelamin" name="jenis-kelamin">
+                            <option value="pria">Pria</option>
+                            <option value="wanita">Wanita</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="program-studi">Program Studi</label>
+                        <select id="program-studi" name="program-studi">
+                            <option value="sistem-informasi">Sistem Informasi</option>
+                            <option value="teknik-informatika">Teknik Informatika</option>
+                        </select>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit">Click</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
